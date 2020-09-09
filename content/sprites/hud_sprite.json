@@ -1,0 +1,27 @@
+{
+	"imagePath": "content/sprites/hud.png",
+	"tileSize": [20, 20],
+	"actorOffset": [-10, -10],
+	"animations": [
+		{
+			"name": "health",
+			"frames": 1,
+			"startOffset": [0, 0]
+		},
+		{
+			"name": "armour",
+			"frames": 1,
+			"startOffset": [1, 0]
+		},
+		{
+			"name": "serum",
+			"frames": 1,
+			"startOffset": [2, 0]
+		},
+		{
+			"name": "fuel",
+			"frames": 1,
+			"startOffset": [3, 0]
+		}
+	]
+}

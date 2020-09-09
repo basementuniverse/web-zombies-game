@@ -1,0 +1,72 @@
+div.intro {
+	@introXOffset: 0px;
+	@startActiveOffset: -231px;
+	@newWorldActiveOffset: -180px;
+	
+	position: relative;
+	margin: 10% auto;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 4px;
+	padding: 10px 0px 10px 10px;
+	height: 50%;
+	width: 50%;
+	min-width: 400px;
+	min-height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
+	hr {
+		width: 100%;
+		height: 2px;
+		background-color: @fg1;
+		border: none;
+		margin: 10px 0px;
+	}
+	
+	div.title {
+		width: 150px;
+		height: 20px;
+		background-image: url(../images/title.png);
+		background-repeat: no-repeat;
+	}
+	
+	p.bottom {
+		position: absolute;
+		bottom: 0px;
+	}
+	
+	div.intromenu {
+		margin: 20px 20px 0px 0px;
+	}
+	
+	a.startbutton {
+		position: relative;
+		display: block;
+		height: 30px;
+		width: 100px;
+		margin: 10px 0px;
+		background-image: url(../images/startmenu.png);
+		background-repeat: no-repeat;
+		background-position: @introXOffset (@itemHeight + @yOffset);
+	}
+	
+	a.startbutton:hover {
+		background-position: (@introXOffset + @startActiveOffset) (@itemHeight + @yOffset);
+	}
+	
+	a.newworldbutton {
+		position: relative;
+		display: block;
+		height: 30px;
+		width: 150px;
+		margin: 10px 0px;
+		background-image: url(../images/gamemenu.png);
+		background-repeat: no-repeat;
+		background-position: @introXOffset ((@itemHeight * 2) + @yOffset);
+	}
+	
+	a.newworldbutton:hover {
+		background-position: (@introXOffset + @newWorldActiveOffset) ((@itemHeight * 2) + @yOffset);
+	}
+}

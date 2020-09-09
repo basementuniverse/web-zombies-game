@@ -1,0 +1,15 @@
+{
+	"imagePath": "content/sprites/items.png",
+	"tileSize": [60, 60],
+	"actorOffset": [-19, -22],
+	"animations": [
+		{
+			"name": "world",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"startOffset": [0, 0]
+		}
+	]
+}

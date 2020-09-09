@@ -1,0 +1,25 @@
+{
+	"name": "Bite",
+	"type": 0,
+	"index": 0,
+	"size": [0, 0],
+	"automatic": false,
+	"rateOfFire": 1,
+	"ammoType": "",
+	"magazineSize": 0,
+	"reloadTime": 0,
+	"maxRange": 25,
+	"spread": 0,
+	"damagePlayer": true,
+	"damageType": 0,
+	"damageAmount": 50,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 12,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 0.5,
+		"soundEffect": "bite"
+	}
+}

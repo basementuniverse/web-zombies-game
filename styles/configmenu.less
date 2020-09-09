@@ -1,0 +1,44 @@
+div.startmenu {
+	@startActiveOffset: -231px;
+	
+	padding-top: 40px;
+	margin: 0px auto;
+	width: 200px;
+	
+	a {
+		display: block;
+		width: 200px;
+		height: 30px;
+		margin-bottom: 10px;
+		background-repeat: no-repeat;
+		background-image: url(../images/startmenu.png);
+	}
+	
+	a.savebutton {
+		background-position: @xOffset @yOffset;
+	}
+	a.savebutton:hover {
+		background-position: (@xOffset + @startActiveOffset) @yOffset;
+	}
+	
+	a.startbutton {
+		background-position: @xOffset (@itemHeight + @yOffset);
+	}
+	a.startbutton:hover {
+		background-position: (@xOffset + @startActiveOffset) (@itemHeight + @yOffset);
+	}
+	
+	a.advancedbutton {
+		background-position: @xOffset ((@itemHeight * 2) + @yOffset);
+	}
+	a.advancedbutton:hover {
+		background-position: (@xOffset + @startActiveOffset) ((@itemHeight * 2) + @yOffset);
+	}
+	
+	a.resetbutton {
+		background-position: @xOffset ((@itemHeight * 3) + @yOffset);
+	}
+	a.resetbutton:hover {
+		background-position: (@xOffset + @startActiveOffset) ((@itemHeight * 3) + @yOffset);
+	}
+}

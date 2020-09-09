@@ -1,0 +1,16 @@
+{
+	"spritePath": "content/sprites/ammo_9mm_sprite.json",
+	"name": "9mm Ammo Box",
+	"type": 2,
+	"size": [22, 16],
+	"inventoryType": "ammo_9mm",
+	"inventoryAmount": 28,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup1"
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"spritePath": "content/sprites/rocketlauncher_sprite.json",
+	"name": "Rocket launcher",
+	"type": 1,
+	"index": 48,
+	"size": [26, 11],
+	"automatic": false,
+	"rateOfFire": 0.5,
+	"ammoType": "ammo_rocket",
+	"magazineSize": 1,
+	"reloadTime": 2,
+	"maxRange": 0,
+	"spread": 200,
+	"damagePlayer": true,
+	"damageType": 1,
+	"damageAmount": 1200,
+	"noise": 200,
+	"useWeaponAnimation": true,
+	"fireSoundEffect": "rocketlauncher",
+	"fireEmptySoundEffect": "rocketlauncher_empty",
+	"castEffect": {
+		"name": "effect_bullet",
+		"flashColour": "rgba(100, 100, 0, 0.6)",
+		"flashSize": 14,
+		"flashFadeTime": 0.5
+	},
+	"hitEffect": {
+		"name": "effect_explosion",
+		"size": 150,
+		"colour": "rgba(100, 100, 0, 0.9)",
+		"fadeTime": 0.2,
+		"soundEffect": "explosion3"
+	},
+	"projectile": {
+		"size": [10, 10],
+		"speed": 350,
+		"noise": 400,
+		"rayHit": false,
+		"triggerStopped": true,
+		"triggerContact": true,
+		"triggerDamage": true,
+		"triggerTime": 0,
+		"effect": {
+			"name": "effect_light",
+			"spread": 50,
+			"startColour": "rgba(100, 100, 0, 0.5)",
+			"endColour": "rgba(255, 255, 255, 0)",
+			"time": 5,
+			"fadeTime": 0.1
+		}
+	}
+}

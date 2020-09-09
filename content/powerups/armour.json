@@ -1,0 +1,15 @@
+{
+	"spritePath": "content/sprites/armour_sprite.json",
+	"name": "Armour",
+	"type": 1,
+	"size": [14, 17],
+	"armourAmount": 30,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup3"
+	}
+}

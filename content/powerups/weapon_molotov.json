@@ -1,0 +1,28 @@
+{
+	"type": 3,
+	"weapon": "weapon_molotov",
+	"ammoAmount": 1,
+	"damagedEvent": {
+		"spread": 150,
+		"damageAmount": 100,
+		"damagePlayer": true,
+		"damageType": 4,
+		"noise": 100,
+		"effect": {
+			"name": "effect_fire",
+			"spread": 5,
+			"image": "flame",
+			"light": true,
+			"fadeTime": 0.3,
+			"soundEffect": "molotov"
+		}
+	},
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup2"
+	}
+}

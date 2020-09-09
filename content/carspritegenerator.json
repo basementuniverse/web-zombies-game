@@ -1,0 +1,65 @@
+{
+	"generateRate": 30,
+	"colourMaskAlpha": 0.7,
+	"destroyedColourMaskAlpha": 0.3,
+	"types": [
+		{
+			"name": "sports1",
+			"initiallyGenerate": 3,
+			"size": [600, 150],
+			"tileSize": [150, 150],
+			"worldOffset": [0, 0],
+			"destroyedOffset": [150, 0],
+			"colourMaskOffset": [300, 0],
+			"imagePath": [
+				"content/sprites/sports1.png"
+			],
+			"colours": [
+				"rgb(168, 0, 0)",
+				"rgb(63, 129, 57)",
+				"rgb(67, 101, 199)",
+				"rgb(255, 216, 0)",
+				"rgb(184, 199, 197)",
+				"rgb(85, 85, 85)"
+			]
+		},
+		{
+			"name": "street1",
+			"initiallyGenerate": 3,
+			"size": [600, 150],
+			"tileSize": [150, 150],
+			"worldOffset": [0, 0],
+			"destroyedOffset": [150, 0],
+			"colourMaskOffset": [300, 0],
+			"imagePath": [
+				"content/sprites/street1.png"
+			],
+			"colours": [
+				"rgb(168, 0, 0)",
+				"rgb(63, 129, 57)",
+				"rgb(67, 101, 199)",
+				"rgb(184, 199, 197)",
+				"rgb(85, 85, 85)"
+			]
+		},
+		{
+			"name": "street2",
+			"initiallyGenerate": 3,
+			"size": [600, 150],
+			"tileSize": [150, 150],
+			"worldOffset": [0, 0],
+			"destroyedOffset": [150, 0],
+			"colourMaskOffset": [300, 0],
+			"imagePath": [
+				"content/sprites/street2.png"
+			],
+			"colours": [
+				"rgb(168, 0, 0)",
+				"rgb(63, 129, 57)",
+				"rgb(67, 101, 199)",
+				"rgb(184, 199, 197)",
+				"rgb(85, 85, 85)"
+			]
+		}
+	]
+}

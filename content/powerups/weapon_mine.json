@@ -1,0 +1,27 @@
+{
+	"type": 3,
+	"weapon": "weapon_mine",
+	"ammoAmount": 1,
+	"damagedEvent": {
+		"spread": 100,
+		"damageAmount": 600,
+		"damagePlayer": true,
+		"damageType": 1,
+		"noise": 400,
+		"effect": {
+			"name": "effect_explosion",
+			"size": 100,
+			"colour": "rgba(100, 100, 0, 0.8)",
+			"fadeTime": 0.1,
+			"soundEffect": "explosion1"
+		}
+	},
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup2"
+	}
+}

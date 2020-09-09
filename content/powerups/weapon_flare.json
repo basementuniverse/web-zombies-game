@@ -1,0 +1,13 @@
+{
+	"type": 3,
+	"weapon": "weapon_flare",
+	"ammoAmount": 1,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup2"
+	}
+}

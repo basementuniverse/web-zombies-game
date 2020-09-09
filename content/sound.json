@@ -1,0 +1,274 @@
+{
+	"formats": [
+		"audio/mp4",
+		"audio/ogg"
+	],
+	"sounds": [
+		{
+			"name": "pistol",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/pistol.m4a",
+				"audio/ogg": "content/sounds/ogg/pistol.ogg"
+			}
+		},
+		{
+			"name": "pistol_reload",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/pistol_reload.m4a",
+				"audio/ogg": "content/sounds/ogg/pistol_reload.ogg"
+			}
+		},
+		{
+			"name": "shotgun",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/shotgun.m4a",
+				"audio/ogg": "content/sounds/ogg/shotgun.ogg"
+			}
+		},
+		{
+			"name": "shotgun_reload",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/shotgun_reload.m4a",
+				"audio/ogg": "content/sounds/ogg/shotgun_reload.ogg"
+			}
+		},
+		{
+			"name": "assaultrifle",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/assaultrifle.m4a",
+				"audio/ogg": "content/sounds/ogg/assaultrifle.ogg"
+			}
+		},
+		{
+			"name": "assaultrifle_reload",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/assaultrifle_reload.m4a",
+				"audio/ogg": "content/sounds/ogg/assaultrifle_reload.ogg"
+			}
+		},
+		{
+			"name": "machinegun",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/machinegun.m4a",
+				"audio/ogg": "content/sounds/ogg/machinegun.ogg"
+			}
+		},
+		{
+			"name": "weapon_empty1",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/weapon_empty1.m4a",
+				"audio/ogg": "content/sounds/ogg/weapon_empty1.ogg"
+			}
+		},
+		{
+			"name": "weapon_empty2",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/weapon_empty2.m4a",
+				"audio/ogg": "content/sounds/ogg/weapon_empty2.ogg"
+			}
+		},
+		{
+			"name": "gib",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/gib.m4a",
+				"audio/ogg": "content/sounds/ogg/gib.ogg"
+			}
+		},
+		{
+			"name": "torch",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/torch.m4a",
+				"audio/ogg": "content/sounds/ogg/torch.ogg"
+			}
+		},
+		{
+			"name": "nvg_activate",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/nvg_activate.m4a",
+				"audio/ogg": "content/sounds/ogg/nvg_activate.ogg"
+			}
+		},
+		{
+			"name": "nvg_deactivate",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/nvg_deactivate.m4a",
+				"audio/ogg": "content/sounds/ogg/nvg_deactivate.ogg"
+			}
+		},
+		{
+			"name": "chainsaw",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/chainsaw.m4a",
+				"audio/ogg": "content/sounds/ogg/chainsaw.ogg"
+			}
+		},
+		{
+			"name": "chainsaw_empty",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/chainsaw_empty.m4a",
+				"audio/ogg": "content/sounds/ogg/chainsaw_empty.ogg"
+			}
+		},
+		{
+			"name": "katana",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/katana.m4a",
+				"audio/ogg": "content/sounds/ogg/katana.ogg"
+			}
+		},
+		{
+			"name": "katana_hit",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/katana_hit.m4a",
+				"audio/ogg": "content/sounds/ogg/katana_hit.ogg"
+			}
+		},
+		{
+			"name": "cricketbat",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/cricketbat.m4a",
+				"audio/ogg": "content/sounds/ogg/cricketbat.ogg"
+			}
+		},
+		{
+			"name": "explosion1",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/explosion1.m4a",
+				"audio/ogg": "content/sounds/ogg/explosion1.ogg"
+			}
+		},
+		{
+			"name": "explosion2",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/explosion2.m4a",
+				"audio/ogg": "content/sounds/ogg/explosion2.ogg"
+			}
+		},
+		{
+			"name": "explosion3",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/explosion3.m4a",
+				"audio/ogg": "content/sounds/ogg/explosion3.ogg"
+			}
+		},
+		{
+			"name": "serum",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/serum.m4a",
+				"audio/ogg": "content/sounds/ogg/serum.ogg"
+			}
+		},
+		{
+			"name": "bite",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/bite.m4a",
+				"audio/ogg": "content/sounds/ogg/bite.ogg"
+			}
+		},
+		{
+			"name": "claw",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/claw.m4a",
+				"audio/ogg": "content/sounds/ogg/claw.ogg"
+			}
+		},
+		{
+			"name": "push",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/push.m4a",
+				"audio/ogg": "content/sounds/ogg/push.ogg"
+			}
+		},
+		{
+			"name": "flamethrower",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/flamethrower.m4a",
+				"audio/ogg": "content/sounds/ogg/flamethrower.ogg"
+			}
+		},
+		{
+			"name": "flamethrower_empty",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/flamethrower_empty.m4a",
+				"audio/ogg": "content/sounds/ogg/flamethrower_empty.ogg"
+			}
+		},
+		{
+			"name": "flare",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/flare.m4a",
+				"audio/ogg": "content/sounds/ogg/flare.ogg"
+			}
+		},
+		{
+			"name": "rocketlauncher_empty",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/rocketlauncher_empty.m4a",
+				"audio/ogg": "content/sounds/ogg/rocketlauncher_empty.ogg"
+			}
+		},
+		{
+			"name": "rocketlauncher",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/rocketlauncher.m4a",
+				"audio/ogg": "content/sounds/ogg/rocketlauncher.ogg"
+			}
+		},
+		{
+			"name": "molotov",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/molotov.m4a",
+				"audio/ogg": "content/sounds/ogg/molotov.ogg"
+			}
+		},
+		{
+			"name": "powerup1",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/powerup1.m4a",
+				"audio/ogg": "content/sounds/ogg/powerup1.ogg"
+			}
+		},
+		{
+			"name": "powerup2",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/powerup2.m4a",
+				"audio/ogg": "content/sounds/ogg/powerup2.ogg"
+			}
+		},
+		{
+			"name": "powerup3",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/powerup3.m4a",
+				"audio/ogg": "content/sounds/ogg/powerup3.ogg"
+			}
+		},
+		{
+			"name": "car1",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/car1.m4a",
+				"audio/ogg": "content/sounds/ogg/car1.ogg"
+			}
+		},
+		{
+			"name": "car1_damaged",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/car1_damaged.m4a",
+				"audio/ogg": "content/sounds/ogg/car1_damaged.ogg"
+			}
+		},
+		{
+			"name": "car_collision",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/car_collision.m4a",
+				"audio/ogg": "content/sounds/ogg/car_collision.ogg"
+			}
+		},
+		{
+			"name": "car_skid",
+			"soundPath": {
+				"audio/mp4": "content/sounds/mp4/car_skid.m4a",
+				"audio/ogg": "content/sounds/ogg/car_skid.ogg"
+			}
+		}
+	]
+}

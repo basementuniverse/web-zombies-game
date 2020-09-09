@@ -1,0 +1,73 @@
+{
+	"imagePath": "content/sprites/player_spritesheet.png",
+	"tileSize": [50, 50],
+	"actorOffset": [-16, -29],
+	"spriteHitSize": [18, 34],
+	"spriteHitOffset": [0, -21],
+	"animations": [
+		{
+			"name": "idle",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": true,
+			"startOffset": [0, 0]
+		},
+		{
+			"name": "walk",
+			"frames": 4,
+			"frameRate": 14,
+			"loop": true,
+			"directions": true,
+			"startOffset": [1, 0]
+		},
+		{
+			"name": "run",
+			"frames": 4,
+			"frameRate": 18,
+			"loop": true,
+			"directions": true,
+			"startOffset": [5, 0]
+		},
+		{
+			"name": "push",
+			"frames": 2,
+			"frameRate": 8,
+			"loop": false,
+			"directions": true,
+			"startOffset": [9, 0]
+		},
+		{
+			"name": "death",
+			"frames": 4,
+			"frameRate": 14,
+			"loop": false,
+			"directions": true,
+			"startOffset": [11, 0]
+		},
+		{
+			"name": "idlearmed",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": true,
+			"startOffset": [15, 0]
+		},
+		{
+			"name": "walkarmed",
+			"frames": 4,
+			"frameRate": 14,
+			"loop": true,
+			"directions": true,
+			"startOffset": [16, 0]
+		},
+		{
+			"name": "runarmed",
+			"frames": 4,
+			"frameRate": 18,
+			"loop": true,
+			"directions": true,
+			"startOffset": [20, 0]
+		}
+	]
+}

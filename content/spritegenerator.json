@@ -1,0 +1,210 @@
+{
+	"generateRate": 30,
+	"types": [
+		{
+			"name": "zombie",
+			"initiallyGenerate": 5,
+			"size": [1050, 400],
+			"layers": [
+				{
+					"index": 0,
+					"name": "body",
+					"required": true,
+					"imagePaths": [
+						"content/sprites/zombie_spritesheet_body1.png",
+						"content/sprites/zombie_spritesheet_body2.png",
+						"content/sprites/zombie_spritesheet_body3.png"
+					]
+				},
+				{
+					"index": 1,
+					"name": "head",
+					"required": true,
+					"imagePaths": [
+						"content/sprites/zombie_spritesheet_head1.png",
+						"content/sprites/zombie_spritesheet_head2.png"
+					]
+				},
+				{
+					"index": 2,
+					"name": "detail",
+					"required": false,
+					"imagePaths": [
+						"content/sprites/zombie_spritesheet_detail1.png",
+						"content/sprites/zombie_spritesheet_detail2.png"
+					]
+				}
+			]
+		},
+		{
+			"name": "building_0",
+			"initiallyGenerate": 2,
+			"size": [1200, 1200],
+			"share": ["building_1"],
+			"layers": [
+				{
+					"index": 0,
+					"name": "background",
+					"required": true,
+					"imagePaths": [
+						"content/world/country/background1.png"
+					]
+				},
+				{
+					"index": 1,
+					"name": "facade",
+					"required": true,
+					"imagePaths": [
+						"content/world/country/facade1.png",
+						"content/world/country/facade2.png"
+					]
+				},
+				{
+					"index": 2,
+					"name": "detail",
+					"required": false,
+					"imagePaths": [
+						"content/world/country/detail1.png"
+					]
+				}
+			]
+		},
+		{
+			"name": "building_1",
+			"initiallyGenerate": 1,
+			"size": [1200, 1200],
+			"share": ["building_0"],
+			"layers": [
+				{
+					"index": 0,
+					"name": "background",
+					"required": true,
+					"imagePaths": [
+						"content/world/country/background1.png"
+					]
+				},
+				{
+					"index": 1,
+					"name": "facade",
+					"required": true,
+					"imagePaths": [
+						"content/world/country/facade1.png",
+						"content/world/country/facade2.png"
+					]
+				},
+				{
+					"index": 2,
+					"name": "detail",
+					"required": false,
+					"imagePaths": [
+						"content/world/country/detail1.png"
+					]
+				}
+			]
+		},
+		{
+			"name": "building_2",
+			"initiallyGenerate": 2,
+			"size": [1200, 1200],
+			"layers": [
+				{
+					"index": 0,
+					"name": "background",
+					"required": true,
+					"imagePaths": [
+						"content/world/suburban/background1.png"
+					]
+				},
+				{
+					"index": 1,
+					"name": "facade",
+					"required": true,
+					"imagePaths": [
+						"content/world/suburban/facade1.png",
+						"content/world/suburban/facade2.png"
+					]
+				},
+				{
+					"index": 2,
+					"name": "detail",
+					"required": true,
+					"imagePaths": [
+						"content/world/suburban/detail3.png",
+						"content/world/suburban/detail6.png"
+					]
+				}
+			]
+		},
+		{
+			"name": "building_3",
+			"initiallyGenerate": 3,
+			"size": [1200, 1200],
+			"layers": [
+				{
+					"index": 0,
+					"name": "background",
+					"required": true,
+					"imagePaths": [
+						"content/world/city/background1.png"
+					]
+				},
+				{
+					"index": 1,
+					"name": "facade",
+					"required": true,
+					"imagePaths": [
+						"content/world/city/facade1.png",
+						"content/world/city/facade2.png",
+						"content/world/city/facade3.png"
+					]
+				},
+				{
+					"index": 2,
+					"name": "detail",
+					"required": true,
+					"imagePaths": [
+						"content/world/city/detail6.png",
+						"content/world/city/detail8.png",
+						"content/world/city/detail10.png"
+					]
+				}
+			]
+		},
+		{
+			"name": "building_4",
+			"initiallyGenerate": 3,
+			"size": [1200, 1200],
+			"layers": [
+				{
+					"index": 0,
+					"name": "background",
+					"required": true,
+					"imagePaths": [
+						"content/world/industrial/background1.png"
+					]
+				},
+				{
+					"index": 1,
+					"name": "facade",
+					"required": true,
+					"imagePaths": [
+						"content/world/industrial/facade1.png",
+						"content/world/industrial/facade2.png",
+						"content/world/industrial/facade3.png"
+					]
+				},
+				{
+					"index": 2,
+					"name": "detail",
+					"required": true,
+					"imagePaths": [
+						"content/world/industrial/detail2.png",
+						"content/world/industrial/detail6.png",
+						"content/world/industrial/detail8.png",
+						"content/world/industrial/detail10.png"
+					]
+				}
+			]
+		}
+	]
+}

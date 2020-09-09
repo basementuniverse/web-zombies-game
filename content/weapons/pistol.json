@@ -1,0 +1,45 @@
+{
+	"spritePath": "content/sprites/pistol_sprite.json",
+	"name": "Pistol",
+	"type": 0,
+	"index": 10,
+	"size": [11, 8],
+	"automatic": false,
+	"rateOfFire": 6,
+	"ammoType": "ammo_9mm",
+	"magazineSize": 14,
+	"reloadTime": 1.5,
+	"maxRange": 0,
+	"firePastTarget": true,
+	"spread": 0,
+	"damagePlayer": false,
+	"damageType": 0,
+	"damageAmount": 110,
+	"noise": 400,
+	"useWeaponAnimation": false,
+	"fireSoundEffect": "pistol",
+	"fireEmptySoundEffect": "weapon_empty1",
+	"reloadSoundEffect": "pistol_reload",
+	"castEffect": {
+		"name": "effect_bullet",
+		"flashColour": "rgba(255, 255, 0, 0.6)",
+		"flashSize": 8,
+		"flashFadeTime": 0.2,
+		"trailColour": "rgba(255, 255, 0, 0.4)",
+		"trailWidth": 1,
+		"trailFadeTime": 0.15
+	},
+	"hitEffect": {
+		"name": "effect_dust",
+		"amount": 1,
+		"size": 4,
+		"colour": "rgba(20, 20, 20, 0.4)",
+		"fadeTime": 0.3
+	},
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 3,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 1
+	}
+}

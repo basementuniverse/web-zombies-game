@@ -1,0 +1,16 @@
+{
+	"spritePath": "content/sprites/serum_sprite.json",
+	"name": "Zombie Virus Serum",
+	"type": 2,
+	"size": [17, 19],
+	"inventoryType": "serum",
+	"inventoryAmount": 1,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup3"
+	}
+}

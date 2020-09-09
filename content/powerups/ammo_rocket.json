@@ -1,0 +1,30 @@
+{
+	"spritePath": "content/sprites/ammo_rocket_sprite.json",
+	"name": "Rockets",
+	"type": 2,
+	"size": [26, 17],
+	"inventoryType": "ammo_rocket",
+	"inventoryAmount": 2,
+	"damagedEvent": {
+		"spread": 150,
+		"damageAmount": 350,
+		"damagePlayer": true,
+		"damageType": 1,
+		"noise": 400,
+		"effect": {
+			"name": "effect_explosion",
+			"size": 150,
+			"colour": "rgba(100, 100, 0, 0.9)",
+			"fadeTime": 0.2,
+			"soundEffect": "explosion3"
+		}
+	},
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup1"
+	}
+}

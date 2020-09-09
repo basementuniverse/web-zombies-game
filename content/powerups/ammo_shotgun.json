@@ -1,0 +1,16 @@
+{
+	"spritePath": "content/sprites/ammo_shotgun_sprite.json",
+	"name": "Shotgun Ammo",
+	"type": 2,
+	"size": [13, 17],
+	"inventoryType": "ammo_shotgun",
+	"inventoryAmount": 12,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup1"
+	}
+}

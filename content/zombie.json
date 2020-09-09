@@ -1,0 +1,31 @@
+{
+	"spritePath": "content/sprites/zombie_sprite.json",
+	"size": [17, 13],
+	"walkSpeed": 20,
+	"runSpeed": 40,
+	"headHealth": 100,
+	"bodyHealth": 250,
+	"fallDelay": 2,
+	"idleTime": 20,
+	"regenerationRate": 20,
+	"clawInfectionChance": 0.05,
+	"biteInfectionChance": 0.7,
+	"lightLevel": 0.25,
+	"brainUpdateRate": [2, 2, 1, 0.5],
+	"fireEffect": {
+		"name": "effect_fire",
+		"spread": 10,
+		"image": "flame",
+		"light": true,
+		"fadeTime": 0.4
+	},
+	"gibAmount": -500,
+	"gibEffect": {
+		"name": "effect_blood",
+		"amount": 12,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 0.5,
+		"gibs": 4,
+		"soundEffect": "gib"
+	}
+}

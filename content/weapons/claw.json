@@ -1,0 +1,25 @@
+{
+	"name": "Claw",
+	"type": 0,
+	"index": 0,
+	"size": [0, 0],
+	"automatic": true,
+	"rateOfFire": 2,
+	"ammoType": "",
+	"magazineSize": 0,
+	"reloadTime": 0,
+	"maxRange": 40,
+	"spread": 0,
+	"damagePlayer": true,
+	"damageType": 0,
+	"damageAmount": 10,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 6,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 0.5,
+		"soundEffect": "claw"
+	}
+}

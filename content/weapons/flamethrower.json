@@ -1,0 +1,50 @@
+{
+	"spritePath": "content/sprites/flamethrower_sprite.json",
+	"name": "Flamethrower",
+	"type": 1,
+	"index": 45,
+	"size": [35, 30],
+	"automatic": true,
+	"rateOfFire": 30,
+	"ammoType": "ammo_fuel",
+	"magazineSize": 0,
+	"reloadTime": 0,
+	"maxRange": 150,
+	"spread": 40,
+	"damagePlayer": false,
+	"damageType": 4,
+	"damageAmount": 80,
+	"noise": 100,
+	"useWeaponAnimation": true,
+	"castEffect": null,
+	"fireSoundEffect": "flamethrower",
+	"fireSoundEffectReTrigger": false,
+	"fireEmptySoundEffect": "flamethrower_empty",
+	"hitEffect": {
+		"name": "effect_fire",
+		"spread": 5,
+		"image": "flame",
+		"light": true,
+		"fadeTime": 0.3
+	},
+	"projectile": {
+		"size": [8, 8],
+		"speed": 150,
+		"noise": 0,
+		"rayHit": false,
+		"triggerStopped": true,
+		"triggerContact": true,
+		"triggerDamage": false,
+		"triggerTime": 0,
+		"effect": {
+			"name": "effect_light",
+			"spread": 40,
+			"startColour": "rgba(100, 100, 0, 0.5)",
+			"endColour": "rgba(255, 255, 255, 0)",
+			"worldStartColour": "rgba(255, 255, 0, 0.3)",
+			"worldEndColour": "rgba(255, 255, 0, 0)",
+			"time": 2,
+			"fadeTime": 1
+		}
+	}
+}

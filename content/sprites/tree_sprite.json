@@ -1,0 +1,12 @@
+{
+	"imagePath": "content/world/trees.png",
+	"tileSize": [200, 200],
+	"actorOffset": [-84, -153],
+	"animations": [
+		{
+			"name": "idle",
+			"directions": true,
+			"startOffset": [0, 0]
+		}
+	]
+}

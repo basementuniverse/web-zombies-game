@@ -1,0 +1,29 @@
+{
+	"spritePath": "content/sprites/chainsaw_sprite.json",
+	"name": "Chainsaw",
+	"type": 0,
+	"index": 8,
+	"size": [26, 10],
+	"automatic": true,
+	"rateOfFire": 4,
+	"ammoType": "ammo_fuel",
+	"magazineSize": 0,
+	"reloadTime": 0,
+	"maxRange": 20,
+	"spread": 20,
+	"damagePlayer": false,
+	"damageType": 0,
+	"damageAmount": 750,
+	"noise": 150,
+	"useWeaponAnimation": true,
+	"castEffect": null,
+	"hitEffect": null,
+	"fireSoundEffect": "chainsaw",
+	"fireEmptySoundEffect": "chainsaw_empty",
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 4,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 1
+	}
+}

@@ -1,0 +1,35 @@
+div.loading {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 100;
+	
+	img {
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		-webkit-animation-name: loadingSpin;
+		-webkit-animation-duration: 1.5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: normal;
+		-webkit-animation-timing-function: linear;
+	}
+	
+	div {
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		margin: 30px 0px 0px -92px;
+		height: 20px;
+		width: 200px;
+		text-align: center;
+	}
+}
+
+@-webkit-keyframes loadingSpin {
+	0% {	-webkit-transform: rotate(0deg); }
+	100% {	-webkit-transform: rotate(360deg); }
+}

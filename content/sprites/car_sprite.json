@@ -1,0 +1,43 @@
+{
+	"imagePath": "",
+	"tileSize": [150, 150],
+	"actorOffset": [-75, -75],
+	"animations": [
+		{
+			"name": "world",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"rotate": true,
+			"startOffset": [0, 0]
+		},
+		{
+			"name": "destroyed",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"rotate": true,
+			"startOffset": [1, 0]
+		},
+		{
+			"name": "colourmask",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"rotate": true,
+			"startOffset": [2, 0]
+		},
+		{
+			"name": "wheel",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"rotate": true,
+			"startOffset": [3, 0]
+		}
+	]
+}

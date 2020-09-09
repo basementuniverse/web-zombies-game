@@ -1,0 +1,11 @@
+{
+	"spritePath": "content/sprites/nightvision_sprite.json",
+	"name": "Night vision goggles",
+	"size": [18, 9],
+	"batteryType": "ammo_battery",
+	"batteryRate": 0.6,
+	"colour": "rgba(0, 255, 0, 0.5)",
+	"amount": 0.5,
+	"activateSoundEffect": "nvg_activate",
+	"deactivateSoundEffect": "nvg_deactivate"
+}

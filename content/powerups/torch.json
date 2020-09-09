@@ -1,0 +1,18 @@
+{
+	"spritePath": "content/sprites/torch_sprite.json",
+	"name": "Torch",
+	"type": 2,
+	"size": [13, 6],
+	"inventoryType": "torch",
+	"inventoryAmount": 1,
+	"inventoryType2": "ammo_battery",
+	"inventoryAmount2": 10,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup3"
+	}
+}

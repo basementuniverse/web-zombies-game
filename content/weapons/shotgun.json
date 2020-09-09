@@ -1,0 +1,47 @@
+{
+	"spritePath": "content/sprites/shotgun_sprite.json",
+	"name": "Shotgun",
+	"type": 0,
+	"index": 22,
+	"size": [20, 10],
+	"automatic": false,
+	"rateOfFire": 2.5,
+	"ammoType": "ammo_shotgun",
+	"magazineSize": 6,
+	"reloadTime": 1,
+	"maxRange": 200,
+	"firePastTarget": true,
+	"spread": 80,
+	"damagePlayer": false,
+	"damageType": 0,
+	"damageAmount": 300,
+	"noise": 200,
+	"useWeaponAnimation": true,
+	"fireSoundEffect": "shotgun",
+	"fireEmptySoundEffect": "weapon_empty2",
+	"reloadSoundEffect": "shotgun_reload",
+	"castEffect": {
+		"name": "effect_bullet",
+		"flashColour": "rgba(255, 255, 0, 0.6)",
+		"flashSize": 10,
+		"flashFadeTime": 0.25,
+		"trailColour": "rgba(255, 255, 0, 0.2)",
+		"trailWidth": 1,
+		"trailFadeTime": 0.2,
+		"spreadRays": 6,
+		"spreadAmount": 20
+	},
+	"hitEffect": {
+		"name": "effect_dust",
+		"amount": 10,
+		"size": 12,
+		"colour": "rgba(20, 20, 20, 0.4)",
+		"fadeTime": 0.5
+	},
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 8,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 1
+	}
+}

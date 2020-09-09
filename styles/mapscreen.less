@@ -1,0 +1,81 @@
+body.config div.worldscreen div.inner,
+div.menuscreen div.mapscreen div.inner {
+	overflow: hidden;
+	
+	div.mapcontrols {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		background-color: rgba(0, 0, 0, 0.9);
+		padding: 5px 5px 0px 5px;
+		border-radius: 4px;
+		
+		a {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background-position: center;
+			background-repeat: no-repeat;
+			opacity: 0.7;
+		}
+		
+		a:hover {
+			opacity: 1;
+		}
+		
+		a.centermapbutton {
+			background-image: url(../images/centeronplayer.png);
+		}
+		
+		a.mappopupbutton {
+			background-image: url(../images/mappopup.png);
+		}
+	}
+	
+	a.scrollmap {
+		position: absolute;
+		display: block;
+		background-repeat: no-repeat;
+		background-color: transparent;
+	}
+	
+	a.scrollmap:hover {
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+	
+	a.scrollmap.up {
+		background-image: url(../images/scrollup.png);
+		background-position: center 0px;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 20px;
+	}
+	
+	a.scrollmap.down {
+		background-image: url(../images/scrolldown.png);
+		background-position: center 0px;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		height: 20px;
+	}
+	
+	a.scrollmap.left {
+		background-image: url(../images/scrollleft.png);
+		background-position: 0px center;
+		top: 0px;
+		left: 0px;
+		width: 20px;
+		height: 100%;
+	}
+	
+	a.scrollmap.right {
+		background-image: url(../images/scrollright.png);
+		background-position: 0px center;
+		top: 0px;
+		right: 0px;
+		width: 20px;
+		height: 100%;
+	}
+}

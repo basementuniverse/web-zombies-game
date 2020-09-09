@@ -1,0 +1,34 @@
+div.menuscreen {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 100;
+	color: white;
+	font: @font;
+}
+
+div.menuscreen,
+body.config {
+	div.content {
+		position: absolute;
+		top: 42px;
+		bottom: 10px;
+		left: -100%;
+		padding: 10px;
+		overflow: hidden;
+		
+		div.inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+		}
+	}
+}
+
+div.paused {
+	display: none;
+}

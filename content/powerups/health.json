@@ -1,0 +1,15 @@
+{
+	"spritePath": "content/sprites/health_sprite.json",
+	"name": "Health Pack",
+	"type": 0,
+	"size": [19, 15],
+	"healthAmount": 30,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup3"
+	}
+}

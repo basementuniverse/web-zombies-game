@@ -1,0 +1,38 @@
+{
+	"spritePath": "content/sprites/mine_sprite.json",
+	"name": "Mine",
+	"type": 1,
+	"index": 56,
+	"size": [10, 8],
+	"automatic": false,
+	"rateOfFire": 1,
+	"ammoType": "ammo_mine",
+	"ammoIsWeapon": true,
+	"magazineSize": 1,
+	"reloadTime": 0,
+	"maxRange": 200,
+	"spread": 100,
+	"damagePlayer": true,
+	"damageType": 1,
+	"damageAmount": 800,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"castEffect": null,
+	"hitEffect": {
+		"name": "effect_explosion",
+		"size": 80,
+		"colour": "rgba(100, 100, 0, 0.8)",
+		"fadeTime": 0.1,
+		"soundEffect": "explosion1"
+	},
+	"projectile": {
+		"size": [7, 7],
+		"speed": 200,
+		"noise": 400,
+		"rayHit": true,
+		"triggerStopped": false,
+		"triggerContact": true,
+		"triggerDamage": true,
+		"triggerTime": 0
+	}
+}

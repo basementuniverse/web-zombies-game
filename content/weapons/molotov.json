@@ -1,0 +1,49 @@
+{
+	"spritePath": "content/sprites/molotov_sprite.json",
+	"name": "Molotov",
+	"type": 1,
+	"index": 52,
+	"size": [9, 16],
+	"automatic": false,
+	"rateOfFire": 1,
+	"ammoType": "ammo_molotov",
+	"ammoIsWeapon": true,
+	"magazineSize": 1,
+	"reloadTime": 0,
+	"maxRange": 250,
+	"spread": 150,
+	"damagePlayer": true,
+	"damageType": 4,
+	"damageAmount": 100,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"castEffect": null,
+	"hitEffect": {
+		"name": "effect_fire",
+		"spread": 5,
+		"image": "flame",
+		"light": true,
+		"fadeTime": 0.3,
+		"soundEffect": "molotov"
+	},
+	"projectile": {
+		"size": [9, 16],
+		"speed": 200,
+		"noise": 100,
+		"rayHit": true,
+		"triggerStopped": true,
+		"triggerContact": true,
+		"triggerDamage": true,
+		"triggerTime": 0,
+		"effect": {
+			"name": "effect_light",
+			"spread": 120,
+			"startColour": "rgba(100, 100, 0, 0.5)",
+			"endColour": "rgba(255, 255, 255, 0)",
+			"worldStartColour": "rgba(255, 255, 0, 0.3)",
+			"worldEndColour": "rgba(255, 255, 0, 0)",
+			"time": 2,
+			"fadeTime": 1
+		}
+	}
+}

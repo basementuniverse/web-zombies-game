@@ -1,0 +1,86 @@
+{
+	"tileSize": [300, 300],
+	"actorOffset": [-50, -50],
+	"animations": [
+		{
+			"name": "2,2",
+			"directions": false,
+			"startOffset": [0, 0]
+		},
+		{
+			"name": "2,3",
+			"directions": false,
+			"startOffset": [1, 0]
+		},
+		{
+			"name": "2,4",
+			"directions": false,
+			"startOffset": [2, 0]
+		},
+		{
+			"name": "2,5",
+			"directions": false,
+			"startOffset": [3, 0]
+		},
+		{
+			"name": "3,2",
+			"directions": false,
+			"startOffset": [0, 1]
+		},
+		{
+			"name": "3,3",
+			"directions": false,
+			"startOffset": [1, 1]
+		},
+		{
+			"name": "3,4",
+			"directions": false,
+			"startOffset": [2, 1]
+		},
+		{
+			"name": "3,5",
+			"directions": false,
+			"startOffset": [3, 1]
+		},
+		{
+			"name": "4,2",
+			"directions": false,
+			"startOffset": [0, 2]
+		},
+		{
+			"name": "4,3",
+			"directions": false,
+			"startOffset": [1, 2]
+		},
+		{
+			"name": "4,4",
+			"directions": false,
+			"startOffset": [2, 2]
+		},
+		{
+			"name": "4,5",
+			"directions": false,
+			"startOffset": [3, 2]
+		},
+		{
+			"name": "5,2",
+			"directions": false,
+			"startOffset": [0, 3]
+		},
+		{
+			"name": "5,3",
+			"directions": false,
+			"startOffset": [1, 3]
+		},
+		{
+			"name": "5,4",
+			"directions": false,
+			"startOffset": [2, 3]
+		},
+		{
+			"name": "5,5",
+			"directions": false,
+			"startOffset": [3, 3]
+		}
+	]
+}

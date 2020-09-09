@@ -1,0 +1,45 @@
+{
+	"spritePath": "content/sprites/assaultrifle_sprite.json",
+	"name": "Assault rifle",
+	"type": 0,
+	"index": 24,
+	"size": [26, 12],
+	"automatic": true,
+	"rateOfFire": 10,
+	"ammoType": "ammo_rifle",
+	"magazineSize": 30,
+	"reloadTime": 0.8,
+	"maxRange": 0,
+	"firePastTarget": true,
+	"spread": 0,
+	"damagePlayer": false,
+	"damageType": 0,
+	"damageAmount": 100,
+	"noise": 150,
+	"useWeaponAnimation": true,
+	"fireSoundEffect": "assaultrifle",
+	"fireEmptySoundEffect": "weapon_empty1",
+	"reloadSoundEffect": "assaultrifle_reload",
+	"castEffect": {
+		"name": "effect_bullet",
+		"flashColour": "rgba(255, 255, 0, 0.6)",
+		"flashSize": 10,
+		"flashFadeTime": 0.05,
+		"trailColour": "rgba(255, 255, 0, 0.4)",
+		"trailWidth": 1,
+		"trailFadeTime": 0.1
+	},
+	"hitEffect": {
+		"name": "effect_dust",
+		"amount": 2,
+		"size": 5,
+		"colour": "rgba(20, 20, 20, 0.4)",
+		"fadeTime": 0.25
+	},
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 2,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 0.6
+	}
+}

@@ -1,0 +1,61 @@
+div.controlsscreen div.inner {
+	table {
+		font-weight: bold;
+		width: 100%;
+		
+		td {
+			padding: 10px;
+			height: 20px;
+		}
+		
+		td:first-child {
+			text-align: right;
+			color: @fg3;
+		}
+		
+		td.description {
+			text-align: left;
+		}
+		
+		td a {
+			display: inline-block;
+			padding: 5px;
+			width: 120px;
+			margin-right: 10px;
+			font-size: 8pt;
+			font-weight: bold;
+			background-color: #999;
+			text-decoration: none;
+			text-align: center;
+			border-radius: 2px;
+		}
+		
+		td a.nokey {
+			background-color: rgba(153, 153, 153, 0.5);
+		}
+		
+		td a:hover {
+			color: @fg1;
+			background-color: #bbb;
+		}
+	}
+}
+
+div.setcontrol {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+	display: none;
+	
+	div {
+		width: 100%;
+		margin-top: 50px;
+		color: @fg1;
+		font-weight: bold;
+		text-align: center;
+	}
+}

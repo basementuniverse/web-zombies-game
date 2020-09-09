@@ -1,0 +1,13 @@
+{
+	"spritePath": "content/sprites/torch_sprite.json",
+	"lightImagePath": "content/sprites/torchlight.png",
+	"name": "Torch",
+	"size": [13, 6],
+	"batteryType": "ammo_battery",
+	"batteryRate": 0.3,
+	"maxRange": 200,
+	"spread": 150,
+	"amount": 0.7,
+	"activateSoundEffect": "torch",
+	"deactivateSoundEffect": "torch"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Push",
+	"type": 0,
+	"index": 0,
+	"size": [0, 0],
+	"automatic": false,
+	"rateOfFire": 4,
+	"ammoType": "",
+	"magazineSize": 0,
+	"reloadTime": 0,
+	"maxRange": 30,
+	"spread": 0,
+	"damagePlayer": false,
+	"damageType": 3,
+	"damageAmount": 0,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 0,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 0.1,
+		"soundEffect": "push"
+	}
+}

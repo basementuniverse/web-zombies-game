@@ -1,0 +1,18 @@
+{
+	"spritePath": "content/sprites/nightvision_sprite.json",
+	"name": "Night vision goggles",
+	"type": 2,
+	"size": [18, 9],
+	"inventoryType": "nightvision",
+	"inventoryAmount": 1,
+	"inventoryType2": "ammo_battery",
+	"inventoryAmount2": 10,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 8pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup3"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"spritePath": "content/sprites/grenade_sprite.json",
+	"name": "Grenade",
+	"type": 1,
+	"index": 54,
+	"size": [10, 10],
+	"automatic": false,
+	"rateOfFire": 1,
+	"ammoType": "ammo_grenade",
+	"ammoIsWeapon": true,
+	"magazineSize": 1,
+	"reloadTime": 0,
+	"maxRange": 300,
+	"spread": 200,
+	"damagePlayer": true,
+	"damageType": 1,
+	"damageAmount": 1200,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"castEffect": null,
+	"hitEffect": {
+		"name": "effect_explosion",
+		"size": 120,
+		"colour": "rgba(100, 100, 0, 0.8)",
+		"fadeTime": 0.1,
+		"soundEffect": "explosion1"
+	},
+	"projectile": {
+		"size": [7, 7],
+		"speed": 200,
+		"noise": 400,
+		"rayHit": true,
+		"triggerStopped": false,
+		"triggerContact": false,
+		"triggerDamage": true,
+		"triggerTime": 3
+	}
+}

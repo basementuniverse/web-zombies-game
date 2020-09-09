@@ -1,0 +1,16 @@
+{
+	"spritePath": "content/sprites/ammo_rifle_sprite.json",
+	"name": "Rifle Magazines",
+	"type": 2,
+	"size": [30, 16],
+	"inventoryType": "ammo_rifle",
+	"inventoryAmount": 60,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup1"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"spritePath": "content/sprites/ammo_battery_sprite.json",
+	"name": "Batteries",
+	"type": 2,
+	"size": [8, 18],
+	"inventoryType": "ammo_battery",
+	"inventoryAmount": 10,
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup1"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"spritePath": "content/sprites/katana_sprite.json",
+	"name": "Katana",
+	"type": 0,
+	"index": 6,
+	"size": [23, 19],
+	"automatic": false,
+	"rateOfFire": 8,
+	"ammoType": "",
+	"magazineSize": 1,
+	"reloadTime": 0.2,
+	"maxRange": 20,
+	"spread": 20,
+	"damagePlayer": false,
+	"damageType": 1,
+	"damageAmount": 400,
+	"noise": 0,
+	"useWeaponAnimation": true,
+	"castEffect": null,
+	"hitEffect": null,
+	"fireSoundEffect": "katana",
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 10,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 1,
+		"soundEffect": "katana_hit"
+	}
+}

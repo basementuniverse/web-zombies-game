@@ -1,0 +1,43 @@
+{
+	"spritePath": "content/sprites/flare_sprite.json",
+	"name": "Flare",
+	"type": 1,
+	"index": 50,
+	"size": [10, 10],
+	"automatic": false,
+	"rateOfFire": 1,
+	"ammoType": "ammo_flare",
+	"ammoIsWeapon": true,
+	"magazineSize": 1,
+	"reloadTime": 0,
+	"maxRange": 250,
+	"spread": 100,
+	"damagePlayer": true,
+	"damageType": 4,
+	"damageAmount": 20,
+	"noise": 0,
+	"useWeaponAnimation": false,
+	"fireSoundEffect": "flare",
+	"castEffect": null,
+	"hitEffect": null,
+	"projectile": {
+		"size": [7, 7],
+		"speed": 200,
+		"noise": 0,
+		"rayHit": false,
+		"triggerStopped": false,
+		"triggerContact": false,
+		"triggerDamage": false,
+		"triggerTime": 17,
+		"effect": {
+			"name": "effect_light",
+			"spread": 200,
+			"startColour": "rgba(255, 0, 0, 0.6)",
+			"endColour": "rgba(255, 0, 0, 0)",
+			"worldStartColour": "rgba(255, 0, 0, 0.4)",
+			"worldEndColour": "rgba(255, 0, 0, 0)",
+			"time": 15,
+			"fadeTime": 2
+		}
+	}
+}

@@ -1,0 +1,195 @@
+{
+	"spritePath": "content/sprites/hud_sprite.json",
+	"elements": [
+		{
+			"name": "health",
+			"position": [20, 20],
+			"align": [-1, -1],
+			"textAlign": "left",
+			"size": [40, 10],
+			"visibleEmpty": true,
+			"animation": "health",
+			"font": "bold 8pt Verdana",
+			"colours": [
+				{
+					"value": 20,
+					"colour": "rgb(255, 0, 0)"
+				},
+				{
+					"value": 1000,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "armour",
+			"position": [80, 20],
+			"align": [-1, -1],
+			"textAlign": "left",
+			"size": [40, 10],
+			"visibleEmpty": false,
+			"animation": "armour",
+			"font": "bold 8pt Verdana",
+			"colours": [
+				{
+					"value": 20,
+					"colour": "rgb(255, 0, 0)"
+				},
+				{
+					"value": 1000,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "serum",
+			"position": [140, 20],
+			"align": [-1, -1],
+			"textAlign": "left",
+			"size": [40, 10],
+			"font": "bold 8pt Verdana",
+			"animation": "serum",
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 1000,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "fuel",
+			"position": [200, 20],
+			"align": [-1, -1],
+			"textAlign": "left",
+			"size": [40, 10],
+			"font": "bold 8pt Verdana",
+			"animation": "fuel",
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 20,
+					"colour": "rgb(255, 0, 0)"
+				},
+				{
+					"value": 1000,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "infected",
+			"position": [10, 20],
+			"align": [0, -1],
+			"textAlign": "center",
+			"size": [0, 0],
+			"visibleEmpty": false,
+			"font": "bold 10pt Verdana",
+			"colours": [
+				{
+					"value": 0,
+					"colour": "rgb(255, 100, 100)"
+				}
+			]
+		},
+		{
+			"name": "dead",
+			"position": [0, -60],
+			"align": [0, 0],
+			"textAlign": "center",
+			"size": [0, 0],
+			"visibleEmpty": false,
+			"font": "bold 10pt Verdana",
+			"colours": [
+				{
+					"value": 0,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "weapon",
+			"position": [70, 25],
+			"align": [1, -1],
+			"size": [30, 10],
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 1000,
+					"colour": "rgba(255, 255, 255, 0)"
+				}
+			]
+		},
+		{
+			"name": "ammo",
+			"position": [20, 20],
+			"align": [1, -1],
+			"textAlign": "right",
+			"size": [30, 10],
+			"font": "bold 8pt Verdana",
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 1000,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "reloading",
+			"position": [20, 40],
+			"align": [1, -1],
+			"textAlign": "right",
+			"size": [80, 10],
+			"visibleEmpty": false,
+			"font": "bold 8pt Verdana",
+			"colours": [
+				{
+					"value": 0,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		},
+		{
+			"name": "torch",
+			"position": [180, 25],
+			"align": [1, -1],
+			"size": [20, 10],
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 1000,
+					"colour": "rgba(255, 255, 255, 0)"
+				}
+			]
+		},
+		{
+			"name": "nightvision",
+			"position": [180, 25],
+			"align": [1, -1],
+			"size": [20, 10],
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 1000,
+					"colour": "rgba(255, 255, 255, 0)"
+				}
+			]
+		},
+		{
+			"name": "battery",
+			"position": [150, 20],
+			"align": [1, -1],
+			"textAlign": "right",
+			"size": [30, 10],
+			"font": "bold 8pt Verdana",
+			"visibleEmpty": false,
+			"colours": [
+				{
+					"value": 1000,
+					"colour": "rgb(255, 255, 255)"
+				}
+			]
+		}
+	]
+}

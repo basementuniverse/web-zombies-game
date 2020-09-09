@@ -1,0 +1,30 @@
+{
+	"spritePath": "content/sprites/ammo_fuel_sprite.json",
+	"name": "Fuel",
+	"type": 2,
+	"size": [15, 21],
+	"inventoryType": "ammo_fuel",
+	"inventoryAmount": 30,
+	"damagedEvent": {
+		"spread": 150,
+		"damageAmount": 200,
+		"damagePlayer": true,
+		"damageType": 4,
+		"noise": 300,
+		"effect": {
+			"name": "effect_explosion",
+			"size": 150,
+			"colour": "rgba(100, 100, 0, 0.8)",
+			"fadeTime": 0.3,
+			"soundEffect": "explosion2"
+		}
+	},
+	"pickupEffect": {
+		"name": "effect_powerup",
+		"offset": [0, -60],
+		"font": "bold 10pt Verdana",
+		"colour": "rgba(255, 255, 255, 1)",
+		"fadeTime": 1.5,
+		"soundEffect": "powerup1"
+	}
+}

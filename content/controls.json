@@ -1,0 +1,17 @@
+{
+	"up": [38, 87],
+	"down": [40, 83],
+	"left": [37, 65],
+	"right": [39, 68],
+	"run": [16],
+	"attack": [1, 17],
+	"lastweapon": [5, 90],
+	"nextweapon": [4, 88],
+	"reload": [82],
+	"serum": [67],
+	"torch": [84],
+	"nightvision": [78],
+	"getincar": [71],
+	"handbrake": [32],
+	"headlights": [72]
+}

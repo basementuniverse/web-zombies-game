@@ -1,0 +1,57 @@
+{
+	"imagePath": "content/sprites/gibs.png",
+	"tileSize": [50, 50],
+	"actorOffset": [-25, -25],
+	"animations": [
+		{
+			"name": "gib0",
+			"directions": false,
+			"startOffset": [0, 0]
+		},
+		{
+			"name": "gib1",
+			"directions": false,
+			"startOffset": [1, 0]
+		},
+		{
+			"name": "gib2",
+			"directions": false,
+			"startOffset": [2, 0]
+		},
+		{
+			"name": "gib3",
+			"directions": false,
+			"startOffset": [3, 0]
+		},
+		{
+			"name": "gib4",
+			"directions": false,
+			"startOffset": [4, 0]
+		},
+		{
+			"name": "gib5",
+			"directions": false,
+			"startOffset": [5, 0]
+		},
+		{
+			"name": "gib6",
+			"directions": false,
+			"startOffset": [6, 0]
+		},
+		{
+			"name": "gib7",
+			"directions": false,
+			"startOffset": [7, 0]
+		},
+		{
+			"name": "gib8",
+			"directions": false,
+			"startOffset": [8, 0]
+		},
+		{
+			"name": "gib9",
+			"directions": false,
+			"startOffset": [9, 0]
+		}
+	]
+}

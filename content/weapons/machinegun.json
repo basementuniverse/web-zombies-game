@@ -1,0 +1,44 @@
+{
+	"spritePath": "content/sprites/machinegun_sprite.json",
+	"name": "Machine gun",
+	"type": 0,
+	"index": 30,
+	"size": [32, 12],
+	"automatic": true,
+	"rateOfFire": 20,
+	"ammoType": "ammo_rifle",
+	"magazineSize": 0,
+	"reloadTime": 0,
+	"maxRange": 0,
+	"firePastTarget": true,
+	"spread": 0,
+	"damagePlayer": false,
+	"damageType": 0,
+	"damageAmount": 280,
+	"noise": 250,
+	"useWeaponAnimation": true,
+	"fireSoundEffect": "machinegun",
+	"fireEmptySoundEffect": "weapon_empty2",
+	"castEffect": {
+		"name": "effect_bullet",
+		"flashColour": "rgba(255, 255, 0, 0.6)",
+		"flashSize": 12,
+		"flashFadeTime": 0.05,
+		"trailColour": "rgba(255, 255, 0, 0.3)",
+		"trailWidth": 2,
+		"trailFadeTime": 0.1
+	},
+	"hitEffect": {
+		"name": "effect_dust",
+		"amount": 2,
+		"size": 10,
+		"colour": "rgba(20, 20, 20, 0.4)",
+		"fadeTime": 0.25
+	},
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 2,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 0.4
+	}
+}

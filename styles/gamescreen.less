@@ -1,0 +1,44 @@
+div.gamemenu {
+	@gameActiveOffset: -180px;
+	
+	padding-top: 40px;
+	margin: 0px auto;
+	width: 200px;
+	
+	a {
+		display: block;
+		width: 200px;
+		height: 30px;
+		margin-bottom: 10px;
+		background-repeat: no-repeat;
+		background-image: url(../images/gamemenu.png);
+	}
+	
+	a.returnbutton {
+		background-position: @xOffset @yOffset;
+	}
+	a.returnbutton:hover {
+		background-position: (@xOffset + @gameActiveOffset) @yOffset;
+	}
+	
+	a.restartbutton {
+		background-position: @xOffset (@itemHeight + @yOffset);
+	}
+	a.restartbutton:hover {
+		background-position: (@xOffset + @gameActiveOffset) (@itemHeight + @yOffset);
+	}
+	
+	a.newworldbutton {
+		background-position: @xOffset ((@itemHeight * 2) + @yOffset);
+	}
+	a.newworldbutton:hover {
+		background-position: (@xOffset + @gameActiveOffset) ((@itemHeight * 2) + @yOffset);
+	}
+	
+	a.aboutbutton {
+		background-position: @xOffset ((@itemHeight * 3) + @yOffset);
+	}
+	a.aboutbutton:hover {
+		background-position: (@xOffset + @gameActiveOffset) ((@itemHeight * 3) + @yOffset);
+	}
+}

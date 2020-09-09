@@ -1,0 +1,29 @@
+{
+	"spritePath": "content/sprites/cricketbat_sprite.json",
+	"name": "Cricket bat",
+	"type": 0,
+	"index": 5,
+	"size": [23, 19],
+	"automatic": false,
+	"rateOfFire": 4,
+	"ammoType": "",
+	"magazineSize": 1,
+	"reloadTime": 0.2,
+	"maxRange": 20,
+	"spread": 20,
+	"damagePlayer": false,
+	"damageType": 0,
+	"damageAmount": 90,
+	"noise": 60,
+	"useWeaponAnimation": false,
+	"castEffect": null,
+	"hitEffect": null,
+	"fireSoundEffect": "katana",
+	"zombieHitEffect": {
+		"name": "effect_blood",
+		"amount": 3,
+		"colour": "rgba(255, 0, 0, 0.5)",
+		"fadeTime": 1,
+		"soundEffect": "cricketbat"
+	}
+}

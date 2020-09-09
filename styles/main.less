@@ -1,0 +1,159 @@
+@import "game";
+@import "menu";
+@import "ui";
+@import "loading";
+@import "statsscreen";
+@import "mapscreen";
+@import "controlsscreen";
+@import "gamescreen";
+@import "config";
+@import "configmenu";
+@import "map";
+@import "intro";
+@import "message";
+@import "about";
+
+@bg:						black;
+@fg1:						white;
+@fg2:						#d52121;
+@fg3:						#ccc;
+@fontFace:					Calibri, Verdana, sans-serif;
+@font:						12pt @fontFace;
+@transitionTime:			0.2s;
+@scrollbar:					rgba(255, 255, 255, 0.5);
+@scrollbarHover:			white;
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+	background-color: @bg;
+	color: @fg1;
+	font: @font;
+}
+
+p {
+	margin: 10px 0px;
+}
+
+a {
+	outline: none;
+	color: @fg1;
+}
+
+a:hover {
+	color: @fg2;
+}
+
+a img {
+	border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+a.audioenabledbutton {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/audioenabled.png);
+	background-position: -30px 0px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+}
+
+div.paused.menuscreen a.audioenabledbutton {
+	right: 10px;
+}
+
+a.audioenabledbutton.active {
+	background-position: 0px 0px;
+}
+
+a.audioenabledbutton:hover {
+	opacity: 1;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: @scrollbar;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: @scrollbarHover;
+}
+
+::-webkit-scrollbar-button {
+	background-color: @bg;
+	height: 0px;
+	width: 0px;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: @bg;
+}
+
+.attachedToScreen {
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.user-select(@v) {
+	-moz-user-select: @v;
+	-o-user-select: @v;
+	-webkit-user-select: @v;
+	-ms-user-select: @v;
+	user-select: @v;
+}
+
+.transition(@properties, @time: @transitionTime, @timing: ease-in-out) {
+	-moz-transition: @properties @time @timing;
+	-o-transition: @properties @time @timing;
+	-webkit-transition: @properties @time @timing;
+	-ms-transition: @properties @time @timing;
+	transition: @properties @time @timing;
+}
+
+.clearTransform() {
+	-moz-transform: none !important;
+	-o-transform: none !important;
+	-webkit-transform: none !important;
+	-ms-transform: none !important;
+	transform: none !important;
+}
+
+.shadow(@properties) {
+	-moz-box-shadow: @properties;
+	-o-box-shadow: @properties;
+	-webkit-box-shadow: @properties;
+	-ms-box-shadow: @properties;
+	box-shadow: @properties;
+}

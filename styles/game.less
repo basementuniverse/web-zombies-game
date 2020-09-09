@@ -1,0 +1,19 @@
+body.game {
+	.user-select(none);
+}
+
+div.game canvas {
+	.attachedToScreen;
+	z-index: 1;
+}
+
+div.infection {
+	.attachedToScreen;
+	pointer-events: none;
+	.shadow(none);
+	.transition(box-shadow, 1s);
+}
+
+div.infection.infected {
+	.shadow(inset 0px 0px 40px 20px rgba(150, 0, 0, 0.7));
+}

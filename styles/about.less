@@ -1,0 +1,136 @@
+body.about {
+	background-color: #222;
+	color: white;
+	font: @font;
+	.user-select(text);
+	
+	@startActiveOffset: -231px;
+	
+	padding-top: 40px;
+	margin: 0px auto;
+	width: 200px;
+	
+	div.menu {
+		a {
+			display: block;
+			width: 100px;
+			height: 30px;
+			background-repeat: no-repeat;
+			background-image: url(../images/startmenu.png);
+		}
+		
+		a.startbutton {
+			background-position: @xOffset (@itemHeight + @yOffset);
+		}
+		a.startbutton:hover {
+			background-position: (@xOffset + @startActiveOffset) (@itemHeight + @yOffset);
+		}
+	}
+	
+	div.content {
+		position: absolute;
+		top: 50px;
+		bottom: 10px;
+		left: 0px;
+		right: 10px;
+		overflow: auto;
+		line-height: 1.5em;
+		
+		div.inner {
+			padding: 10px;
+		}
+		
+		p {
+			margin: 20px 0px;
+		}
+		
+		h1 {
+			font-size: 14pt;
+			font-weight: bold;
+			margin: 20px 0px 10px 0px;
+		}
+		
+		h1:first-of-type {
+			margin: 0px 0px 10px 0px;
+		}
+		
+		h2 {
+			font-size: 12pt;
+			font-weight: bold;
+			margin: 10px 0px;
+		}
+		
+		a {
+			text-decoration: underline;
+		}
+		
+		a.button_toggle {
+			padding-right: 20px;
+			background: url(../images/arrow_top.png) center right no-repeat;
+		}
+		
+		a.button_toggle.closed {
+			background: url(../images/arrow_bottom.png) center right no-repeat;
+		}
+		
+		div.howdoiplay,
+		div.howdoiconfig,
+		div.weaponsandpowerups,
+		div.credits {
+			display: none;
+			margin-bottom: 60px;
+		}
+		
+		span.key {
+			background-color: #666;
+			border: 2px #333 solid;
+			border-radius: 3px;
+			padding: 0px 5px;
+			font-weight: bold;
+		}
+		
+		span.button {
+			color: #d52121;
+			font-weight: bold;
+		}
+		
+		div.weaponsandpowerups table {
+			width: 100%;
+			
+			td {
+				vertical-align: top;
+				padding: 20px;
+			}
+			
+			td:first-of-type {
+				text-align: center;
+			}
+		}
+		
+		div.credits table {
+			width: 100%;
+			
+			tr {
+				height: 30px;
+			}
+			
+			td {
+				vertical-align: top;
+				font-weight: bold;
+				padding: 20px;
+			}
+			
+			td:first-of-type {
+				width: 200px;
+			}
+			
+			span {
+				font-weight: normal;
+			}
+			
+			p {
+				margin: 0px 0px 20px 0px;
+			}
+		}
+	}
+}

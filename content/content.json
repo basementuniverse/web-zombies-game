@@ -1,0 +1,304 @@
+{
+	"items": [
+		{
+			"id": "sound",
+			"loader": "sound",
+			"args": ["content/sound.json"]
+		},
+		{
+			"id": "flame",
+			"loader": "image",
+			"args": ["content/sprites/flame.png"]
+		},
+		{
+			"id": "headlight",
+			"loader": "image",
+			"args": ["content/sprites/headlight.png"]
+		},
+		{
+			"id": "carspritegenerator",
+			"loader": "carSprite",
+			"args": ["content/carspritegenerator.json"]
+		},
+		{
+			"id": "car_sports1",
+			"loader": "data",
+			"args": ["content/cars/sports1.json"]
+		},
+		{
+			"id": "car_street1",
+			"loader": "data",
+			"args": ["content/cars/street1.json"]
+		},
+		{
+			"id": "car_street2",
+			"loader": "data",
+			"args": ["content/cars/street2.json"]
+		},
+		{
+			"id": "map",
+			"loader": "map",
+			"args": ["content/map.json"]
+		},
+		{
+			"id": "torch",
+			"loader": "torch",
+			"args": ["content/torch.json"]
+		},
+		{
+			"id": "nightvision",
+			"loader": "data",
+			"args": ["content/nightvision.json"]
+		},
+		{
+			"id": "gibs",
+			"loader": "sprite",
+			"args": ["content/sprites/gibs_sprite.json"]
+		},
+		{
+			"id": "world",
+			"loader": "world",
+			"args": ["content/world.json"]
+		},
+		{
+			"id": "buildingsprite",
+			"loader": "sprite",
+			"args": ["content/sprites/building_sprite.json"]
+		},
+		{
+			"id": "treesprite",
+			"loader": "sprite",
+			"args": ["content/sprites/tree_sprite.json"]
+		},
+		{
+			"id": "hud",
+			"loader": "data",
+			"args": ["content/hud.json"]
+		},
+		{
+			"id": "zombiegenerator",
+			"loader": "data",
+			"args": ["content/zombiegenerator.json"]
+		},
+		{
+			"id": "spritegenerator",
+			"loader": "spriteGenerator",
+			"args": ["content/spritegenerator.json"]
+		},
+		{
+			"id": "controls",
+			"loader": "data",
+			"args": ["content/controls.json"]
+		},
+		{
+			"id": "player",
+			"loader": "data",
+			"args": ["content/player.json"]
+		},
+		{
+			"id": "zombie",
+			"loader": "data",
+			"args": ["content/zombie.json"]
+		},
+		{
+			"id": "weapon_push",
+			"loader": "data",
+			"args": ["content/weapons/push.json"]
+		},
+		{
+			"id": "weapon_claw",
+			"loader": "data",
+			"args": ["content/weapons/claw.json"]
+		},
+		{
+			"id": "weapon_bite",
+			"loader": "data",
+			"args": ["content/weapons/bite.json"]
+		},
+		{
+			"id": "weapon_pistol",
+			"loader": "data",
+			"args": ["content/weapons/pistol.json"]
+		},
+		{
+			"id": "weapon_assaultrifle",
+			"loader": "data",
+			"args": ["content/weapons/assaultrifle.json"]
+		},
+		{
+			"id": "weapon_machinegun",
+			"loader": "data",
+			"args": ["content/weapons/machinegun.json"]
+		},
+		{
+			"id": "weapon_rocketlauncher",
+			"loader": "data",
+			"args": ["content/weapons/rocketlauncher.json"]
+		},
+		{
+			"id": "weapon_grenade",
+			"loader": "data",
+			"args": ["content/weapons/grenade.json"]
+		},
+		{
+			"id": "weapon_flare",
+			"loader": "data",
+			"args": ["content/weapons/flare.json"]
+		},
+		{
+			"id": "weapon_molotov",
+			"loader": "data",
+			"args": ["content/weapons/molotov.json"]
+		},
+		{
+			"id": "weapon_mine",
+			"loader": "data",
+			"args": ["content/weapons/mine.json"]
+		},
+		{
+			"id": "weapon_shotgun",
+			"loader": "data",
+			"args": ["content/weapons/shotgun.json"]
+		},
+		{
+			"id": "weapon_flamethrower",
+			"loader": "data",
+			"args": ["content/weapons/flamethrower.json"]
+		},
+		{
+			"id": "weapon_cricketbat",
+			"loader": "data",
+			"args": ["content/weapons/cricketbat.json"]
+		},
+		{
+			"id": "weapon_chainsaw",
+			"loader": "data",
+			"args": ["content/weapons/chainsaw.json"]
+		},
+		{
+			"id": "weapon_katana",
+			"loader": "data",
+			"args": ["content/weapons/katana.json"]
+		},
+		{
+			"id": "powerup_health",
+			"loader": "data",
+			"args": ["content/powerups/health.json"]
+		},
+		{
+			"id": "powerup_armour",
+			"loader": "data",
+			"args": ["content/powerups/armour.json"]
+		},
+		{
+			"id": "powerup_serum",
+			"loader": "data",
+			"args": ["content/powerups/serum.json"]
+		},
+		{
+			"id": "powerup_torch",
+			"loader": "data",
+			"args": ["content/powerups/torch.json"]
+		},
+		{
+			"id": "powerup_nightvision",
+			"loader": "data",
+			"args": ["content/powerups/nightvision.json"]
+		},
+		{
+			"id": "powerup_ammo_9mm",
+			"loader": "data",
+			"args": ["content/powerups/ammo_9mm.json"]
+		},
+		{
+			"id": "powerup_ammo_rifle",
+			"loader": "data",
+			"args": ["content/powerups/ammo_rifle.json"]
+		},
+		{
+			"id": "powerup_ammo_rocket",
+			"loader": "data",
+			"args": ["content/powerups/ammo_rocket.json"]
+		},
+		{
+			"id": "powerup_ammo_shotgun",
+			"loader": "data",
+			"args": ["content/powerups/ammo_shotgun.json"]
+		},
+		{
+			"id": "powerup_ammo_fuel",
+			"loader": "data",
+			"args": ["content/powerups/ammo_fuel.json"]
+		},
+		{
+			"id": "powerup_ammo_battery",
+			"loader": "data",
+			"args": ["content/powerups/ammo_battery.json"]
+		},
+		{
+			"id": "powerup_weapon_pistol",
+			"loader": "data",
+			"args": ["content/powerups/weapon_pistol.json"]
+		},
+		{
+			"id": "powerup_weapon_shotgun",
+			"loader": "data",
+			"args": ["content/powerups/weapon_shotgun.json"]
+		},
+		{
+			"id": "powerup_weapon_assaultrifle",
+			"loader": "data",
+			"args": ["content/powerups/weapon_assaultrifle.json"]
+		},
+		{
+			"id": "powerup_weapon_machinegun",
+			"loader": "data",
+			"args": ["content/powerups/weapon_machinegun.json"]
+		},
+		{
+			"id": "powerup_weapon_flamethrower",
+			"loader": "data",
+			"args": ["content/powerups/weapon_flamethrower.json"]
+		},
+		{
+			"id": "powerup_weapon_rocketlauncher",
+			"loader": "data",
+			"args": ["content/powerups/weapon_rocketlauncher.json"]
+		},
+		{
+			"id": "powerup_weapon_grenade",
+			"loader": "data",
+			"args": ["content/powerups/weapon_grenade.json"]
+		},
+		{
+			"id": "powerup_weapon_flare",
+			"loader": "data",
+			"args": ["content/powerups/weapon_flare.json"]
+		},
+		{
+			"id": "powerup_weapon_molotov",
+			"loader": "data",
+			"args": ["content/powerups/weapon_molotov.json"]
+		},
+		{
+			"id": "powerup_weapon_mine",
+			"loader": "data",
+			"args": ["content/powerups/weapon_mine.json"]
+		},
+		{
+			"id": "powerup_weapon_chainsaw",
+			"loader": "data",
+			"args": ["content/powerups/weapon_chainsaw.json"]
+		},
+		{
+			"id": "powerup_weapon_cricketbat",
+			"loader": "data",
+			"args": ["content/powerups/weapon_cricketbat.json"]
+		},
+		{
+			"id": "powerup_weapon_katana",
+			"loader": "data",
+			"args": ["content/powerups/weapon_katana.json"]
+		}
+	]
+}

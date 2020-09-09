@@ -1,0 +1,41 @@
+{
+	"imagePath": "content/sprites/weapons.png",
+	"tileSize": [50, 50],
+	"actorOffset": [-16, -29],
+	"spriteBarrelOffset": {
+		"1,0": [35, 29],
+		"1,1": [27, 32],
+		"0,1": [19, 31],
+		"-1,1": [14, 29],
+		"-1,0": [13, 27],
+		"-1,-1": [13, 23],
+		"0,-1": [35, 26],
+		"1,-1": [37, 21]
+	},
+	"animations": [
+		{
+			"name": "world",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"startOffset": [14, 1]
+		},
+		{
+			"name": "player",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": true,
+			"startOffset": [14, 3]
+		},
+		{
+			"name": "hud",
+			"frames": 1,
+			"frameRate": 1,
+			"loop": false,
+			"directions": false,
+			"startOffset": [14, 2]
+		}
+	]
+}
